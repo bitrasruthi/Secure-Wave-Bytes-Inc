@@ -1,0 +1,60 @@
+@import "../src/assets/fonts/fonts.css";
+
+:root {
+  font-family: 'Kanit', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(90deg, rgba(48,30,65,1) 0%, rgba(40,38,76,1) 45%, rgba(29,46,90,1) 88%);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.kanit-bold {
+  font-family: kanit-bold !important;
+}
+.kanit-extrabold {
+  font-family: kanit-regular !important;
+}
+.kanit-regular {
+  font-family: kanit-medium !important;
+}
+.kanit-extrabold {
+  font-family: kanit-extrabold !important;
+}
+.kanit-light {
+  font-family: kanit-light !important;
+}
+.kanit-black {
+  font-family: kanit-black !important;
+}
+.kanit-semibold {
+  font-family: kanit-semibold !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  background-color: rgba(65, 65, 65, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
