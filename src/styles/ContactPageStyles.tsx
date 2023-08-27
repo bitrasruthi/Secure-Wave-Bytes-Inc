@@ -66,7 +66,7 @@ export const ContactPageStyles = makeStyles((theme: Theme) => ({
       "& .wave2-style": {
         height: 350,
         width: 300,
-        top: 220,
+        top: 120,
       },
       "& .wave-style": {
         height: 300,
